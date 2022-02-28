@@ -1,0 +1,98 @@
+/* Load Fonts. */
+@font-face {
+	font-family: FantaisieArtistique;
+	font-weight: normal;
+	src: url("fonts/FantaisieArtistique.ttf") format("truetype");
+}
+@font-face {
+	font-family: Fredoka;
+	font-weight: normal;
+	src: url("fonts/Fredoka.ttf") format("truetype");
+}
+
+
+/* Page. */
+body {
+	max-width: 1000px;
+	margin-left: auto;
+	margin-right: auto;
+	
+	background-color: #894319;
+	background-image: url(images/narnia_map.jpg);
+	background-size: cover;
+	background-attachment: fixed;
+}
+
+.container {
+	display: flex;
+	margin: -10px;
+	filter: drop-shadow(0px 0px 20px black);
+}
+
+.sidebar {
+	flex: 1;
+	padding: 10px;
+	border-radius: 100px 0px 0px 100px;
+	
+	background-color: rgba(222, 131, 77, 0.3);
+	color: white;
+}
+
+.page {
+	flex: 2.4;
+	padding: 10px;
+	border-radius: 0px 25px 25px 0px;
+	
+	background-color: #F0D290;
+}
+
+
+/* Specific elements. */
+h1 {
+	font-family: "FantaisieArtistique";
+	font-size: 3em;
+	color: #781D42;
+}
+
+p {
+	font-family: 'Fredoka';
+	font-size: 1.2em;
+	text-align: justify;
+	text-indent: 2em;
+}
+
+.center {
+	text-align: center;
+	text-indent: 0em;
+}
+
+.navbar {
+	list-style-type: none;
+	margin: 0px;
+	padding: 0px;
+}
+
+.btn {
+	margin: 15px;
+	padding: 3px;
+	border-radius: 15px;
+	transition: 0.2s;
+	
+	background-color: #A3423C;
+	filter: drop-shadow(4px 4px 3px rgba(0,0,0, 0.5));
+	
+	text-align: left;
+	font-family: "FantaisieArtistique";
+	font-size: 2.2em;
+}
+
+.btn:hover {
+	border-radius: 20px;
+	background-color: #781D42;
+	filter: drop-shadow(4px 4px 3px black);
+}
+
+.logo {
+	max-width: 100%;
+	height: auto;
+}
