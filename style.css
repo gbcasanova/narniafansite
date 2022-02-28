@@ -67,6 +67,8 @@ p {
 	text-indent: 2em;
 }
 
+
+
 /* Classes */
 .center {
 	text-align: center;
@@ -124,8 +126,13 @@ p {
 .poster li img {
 	box-shadow: 5px 5px 5px rgba(0,0,0, 0.5);
 	transition: 0.2s;
+	width: auto;
+	height: auto;
+	filter: brightness(0.8);
 }
 
 .poster li img:hover {
 	box-shadow: 5px 5px 5px black;
+	transform: scale(1.1);
+	filter: brightness(1);
 }
