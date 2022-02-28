@@ -47,7 +47,7 @@ body {
 }
 
 
-/* Specific elements. */
+/* Default elements. */
 h1 {
 	font-family: "FantaisieArtistique";
 	font-size: 3em;
@@ -61,6 +61,8 @@ p {
 	text-indent: 2em;
 }
 
+
+/* Classes */
 .center {
 	text-align: center;
 	text-indent: 0em;
