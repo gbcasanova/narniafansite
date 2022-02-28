@@ -54,6 +54,12 @@ h1 {
 	color: #781D42;
 }
 
+h2 {
+	font-family: "FantaisieArtistique";
+	font-size: 2em;
+	color: #781D42;
+}
+
 p {
 	font-family: 'Fredoka';
 	font-size: 1.2em;
@@ -104,3 +110,22 @@ p {
 	height: auto;
 }
 
+.poster {
+	list-style: none;
+	padding: 0;
+	text-align: center;
+}
+
+.poster li {
+	display: inline;
+	margin: 10px;
+}
+
+.poster li img {
+	box-shadow: 5px 5px 5px rgba(0,0,0, 0.5);
+	transition: 0.2s;
+}
+
+.poster li img:hover {
+	box-shadow: 5px 5px 5px black;
+}
