@@ -61,7 +61,6 @@ p {
 	text-indent: 2em;
 }
 
-
 /* Classes */
 .center {
 	text-align: center;
@@ -94,7 +93,14 @@ p {
 	filter: drop-shadow(4px 4px 3px black);
 }
 
+.abtn { text-decoration: none; transition: 0.2s;}
+.abtn:link { color: white; }
+.abtn:visited { color: white; }
+.abtn:active { color: white;}
+.abtn:hover {color: #F0D290;}
+
 .logo {
 	max-width: 100%;
 	height: auto;
 }
+
